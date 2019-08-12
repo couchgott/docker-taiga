@@ -6,7 +6,7 @@ Taiga is a project management platform for startups and agile developers & desig
 
 # How to use this image
 
-There is an example project available at [internaut/docker-taiga/example](https://github.com/internaut/docker-taiga/example) that provides base configuration files available for you to modify and allows you to easily install plugins. I recommend you clone this repo and modify the files, then use it's provided scripts to get started quickly.
+There is an example project available at [internaut/docker-taiga/example](https://github.com/couchgott/docker-taiga/tree/master/example) that provides base configuration files available for you to modify and allows you to easily install plugins. I recommend you clone this repo and modify the files, then use it's provided scripts to get started quickly.
 
     git clone https://github.com/internaut/docker-taiga.git cd docker-taiga/example
     vi taiga-conf/local.py # configuration for taiga-back
@@ -167,7 +167,7 @@ To sum it all up, if you want to run Taiga without using docker-compose, run thi
       -v ./media:/usr/src/taiga-back/media \
       internaut/taiga
 
-Again, you can avoid all this by using [internaut/docker-taiga/example](https://github.com/internaut/docker-taiga/example) and then just run `docker-compose up`.
+Again, you can avoid all this by using [internaut/docker-taiga/example](https://github.com/couchgott/docker-taiga/tree/master/example) and then just run `docker-compose up`.
 
 # Using this git repo
 
