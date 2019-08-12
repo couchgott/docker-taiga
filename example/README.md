@@ -5,19 +5,9 @@ This repo contains several example configurations for setting up Taiga using [do
 ## Simple Example
 
 If you want a very simple example, simply pull the `docker-compose.yml` file from here:
-https://github.com/benhutchins/docker-taiga/tree/master/docker-compose.yml
+https://github.com/internaut/docker-taiga/tree/master/example/docker-compose.yml
 
 ## Customized Example (Adds Slack & LDAP support)
-
-For a slightly more customized setup, this directory provides an example of how
-to extend docker-taiga and add [taiga-contrib-slack](https://github.com/taigaio/taiga-contrib-slack) and [taiga-contrib-ldap-auth](https://github.com/ensky/taiga-contrib-ldap-auth) LDAP
-plugins.
-
-To use this example, as-is, simply clone this repo and startup Docker:
-
-```bash
-git clone https://github.com/benhutchins/docker-taiga-example.git mytaiga
-cd mytaiga/
 
 # Optional, but likely desired, update your configuration now
 vi docker-compose.yml # Be sure to update the TAIGA_HOSTNAME
@@ -37,7 +27,7 @@ open http://localhost/
 
 To enable LDAP as well:
 
-1. Uncomment the relevant lines from the `Dockerfile` and `taiga-conf/local.py`
+1. Uncomment the relevant lines from `taiga-conf/local.py`
 2. Add this to your `taiga-conf/conf.json` file:
 
     "loginFormType": "ldap",
