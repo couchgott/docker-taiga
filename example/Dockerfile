@@ -1,5 +1,5 @@
-FROM benhutchins/taiga
-MAINTAINER Benjamin Hutchins <ben@hutchins.co>
+FROM internaut/taiga
+MAINTAINER David Surey <github@digitalismus.org>
 
 ## Install Slack extension
 RUN LC_ALL=C pip install --no-cache-dir taiga-contrib-slack
