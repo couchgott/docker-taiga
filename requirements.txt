@@ -5,7 +5,7 @@ asana==0.6.7
 asn1crypto==1.2.0
 attrs==19.3.0
 billiard==3.6.1.0
-bleach==3.1.0
+bleach==3.1.4
 cairocffi==1.1.0
 cairosvg==2.0.3
 celery==4.3.0
