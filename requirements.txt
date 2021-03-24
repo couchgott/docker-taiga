@@ -20,7 +20,7 @@ bleach==3.2.3
     # via -r requirements.in
 cairocffi==1.2.0
     # via cairosvg
-cairosvg==2.0.3
+cairosvg==2.5.1
     # via -r requirements.in
 celery==4.3.0
     # via -r requirements.in
