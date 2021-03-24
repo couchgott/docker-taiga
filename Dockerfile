@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.7
 MAINTAINER David Surey <docker@digitalismus.org>
 
 ENV DEBIAN_FRONTEND noninteractive
