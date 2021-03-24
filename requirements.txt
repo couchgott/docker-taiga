@@ -16,7 +16,7 @@ backoff==1.6.0
     # via rudder-sdk-python
 billiard==3.6.3.0
     # via celery
-bleach==3.2.3
+bleach==3.3.0
     # via -r requirements.in
 cairocffi==1.2.0
     # via cairosvg
