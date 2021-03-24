@@ -82,7 +82,7 @@ jinja2==2.11.3
     # via django-jinja
 kombu==4.6.11
     # via celery
-lxml==4.6.2
+lxml==4.6.3
     # via
     #   cairosvg
     #   premailer
